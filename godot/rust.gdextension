@@ -1,0 +1,16 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+reloadable = true
+
+[libraries]
+linux.debug.x86_64 = "res://../rust/target/debug/libissue_cast_gd_pointer_crash_in_double_build.so"
+linux.release.x86_64 = "res://../rust/target/release/libissue_cast_gd_pointer_crash_in_double_build.so"
+windows.debug.x86_64 = "res://../rust/target/debug/issue_cast_gd_pointer_crash_in_double_build.dll"
+windows.release.x86_64 = "res://../rust/target/release/issue_cast_gd_pointer_crash_in_double_build.dll"
+macos.debug = "res://../rust/target/debug/libissue_cast_gd_pointer_crash_in_double_build.dylib"
+macos.release = "res://../rust/target/release/libissue_cast_gd_pointer_crash_in_double_build.dylib"
+macos.debug.arm64 = "res://../rust/target/debug/libissue_cast_gd_pointer_crash_in_double_build.dylib"
+macos.release.arm64 = "res://../rust/target/release/libissue_cast_gd_pointer_crash_in_double_build.dylib"
+web.debug.wasm32 = "res://../rust/target/wasm32-unknown-emscripten/debug/issue_cast_gd_pointer_crash_in_double_build.wasm"
+web.release.wasm32 = "res://../rust/target/wasm32-unknown-emscripten/release/issue_cast_gd_pointer_crash_in_double_build.wasm"
