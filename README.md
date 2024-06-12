@@ -1,6 +1,4 @@
 ```
-Godot Engine v4.3.beta.custom_build.5833f5978 (2024-06-08 12:11:35 UTC) - https://godotengine.org
-Vulkan 1.3.278 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4090 D
 
 thread '<unnamed>' panicked at C:\Users\Mehere\.cargo\git\checkouts\gdext-76630c89719e160c\7eec09c\godot-core\src\obj:
 Class issue_cast_gd_pointer_crash_in_double_build::MyCustomMesh -- null instance; does the class have a Godot creator f?
